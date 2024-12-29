@@ -104,7 +104,7 @@ class Print {
 }
 ```
  Printing Variables and Literals
-```
+```java
 ##Print Variables
 
 class Variables {
