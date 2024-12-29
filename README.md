@@ -91,7 +91,7 @@ println() - It prints string inside the quotes similar like print() method. Then
 
 printf() - It provides string formatting (similar to printf in C/C++ programming).
 
-```
+```java
 class Print {
     public static void main(String[] args) {
     	
@@ -126,7 +126,7 @@ In order to use the object of Scanner, we need to import java.util.Scanner packa
 import java.util.Scanner;
 ```
 Then, we need to create an object of the Scanner class. We can use the object to take input from the user.
-```
+```java
 // create an object of Scanner
 Scanner input = new Scanner(System.in);
 
@@ -134,7 +134,7 @@ Scanner input = new Scanner(System.in);
 int number = input.nextInt();
 ```
 ##Get Integer Input From the User
-```
+```javaa
 import java.util.Scanner;
 
 class Input {
@@ -152,7 +152,7 @@ class Input {
 }
 ```
 ##Get float, double and String Input
-```
+```java
 import java.util.Scanner;
 
 class Input {
@@ -195,7 +195,7 @@ multi-line comment
 **Single-line Comment**
 
 A single-line comment starts and ends in the same line. To write a single-line comment, we can use the // symbol. 
-```
+```java
 // "Hello, World!" program example
  
 class Main {
@@ -208,7 +208,7 @@ class Main {
 **Multi-line Comment**
 
 When we want to write comments in multiple lines, we can use the multi-line comment. To write multi-line comments, we can use the /*....*/ symbol. 
-```
+```java
 /* This is an example of  multi-line comment.
  * The program prints "Hello, World!" to the standard output.
  */
@@ -225,13 +225,13 @@ class HelloWorld {
 ```Variable``` in java
 
 A variable is a location in memory (storage area) to hold data.
-```
+```java
 int speedLimit = 80;
 ```
 Here, speedLimit is a variable of int data type and we have assigned value 80 to it.
 
 Print ```Variable```
-```
+```java
 int Name = "Tej";
 System.out.println(Name);
 ```
@@ -246,7 +246,7 @@ There are two types of data types in Java:
 **2.Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays.
 
 ![image](Resources/Data-type.png)
-```
+```java
 Data type 
 
     int num = 5; // store all integer number
@@ -281,7 +281,7 @@ Operators in Java can be classified into 5 types:
 | / | Division|
 | % | Modulo Operation|
 
-```
+```java
 Arithmetic Operators
 
 class Main {
@@ -316,7 +316,7 @@ class Main {
 | *= | a *= b;|a = a * b;|
 | /= | a /= b; | a = a / b;|
 | %= | a %= b; | a = a % b;|
-```
+```java
 class Main {
   public static void main(String[] args) {
     
@@ -348,7 +348,7 @@ Relational operators are used to check the relationship between two operands.
 | < | Lesst= Then|a < b;|
 | <= | GreaterThenequalto | a <= b;|
 | >= | LessThenequalto| a >=b;|
-```	
+```	java
 
 class Main {
   public static void main(String[] args) {
@@ -389,7 +389,7 @@ Logical operators are used to check whether an expression is true or false. They
 | (Logical OR) | expression1 OR expression2|true if either expression1 or expression2 is true|
 | ! (Logical NOT) | !expression|true if expression is false and vice versa|
 
-```
+```java
 class Main {
   public static void main(String[] args) {
 
@@ -413,7 +413,7 @@ class Main {
 1. Java if (if-then) Statement
 
 The syntax of an if-then statement is:
-```
+```java
 if (condition) {
   // statements
 }
@@ -430,7 +430,7 @@ The ```if``` Statement execute When condition is true Otherwise ```Else``` part 
 
 **Syntax** of ```if-else``` statement
 
-```
+```java
 if (condition) {
   // codes in if block
 }
@@ -443,7 +443,7 @@ else {
 **3. Java if...else...if Statement**
 
 In Java, we have an if...else...if ladder, that can be used to execute one block of code among multiple other blocks.
-```
+```java
 if (condition1) {
   // codes
 }
@@ -467,7 +467,7 @@ else {
 In Java, it is also possible to use if..else statements inside an if...else statement. It's called the nested if...else statement.
 
 Here's a program to find the largest of 3 numbers using the nested if...else statement.
-```
+```java
 class Main {
   public static void main(String[] args) {
 
@@ -510,7 +510,7 @@ The ```switch``` statement allows us to execute a block of code among many alter
 
 The syntax of the switch statement in Java is:
 
-```
+```java
 switch (expression) {
 
   case value1:
@@ -530,7 +530,7 @@ switch (expression) {
 ```
 **Example: java Switch statement**
 
-```
+```java
 // Java Program to check the size
 // using the switch...case statement
 
@@ -590,7 +590,7 @@ In Java, there are three types of loops.
 
 Java for loop is used to run a block of code for a certain number of times. The syntax of for loop is:
 
-```
+```java
 for (initialExpression; testExpression; updateExpression) {
     // body of the loop
 }
@@ -616,7 +616,7 @@ The `condition` is evaluated again. The process continues until the condition is
 In Java, the for-each loop is used to iterate through elements of arrays and collections (like ArrayList). It is also known as the enhanced for loop.
 
 The syntax of the Java for-each loop is:
-```
+```java
 for(dataType item : array) {
     ...
 }
